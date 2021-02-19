@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const FETCH_DEALS = "FETCH_DEALS";
 export const FETCH_DEALS_FAIL = "FETCH_DEALS_FAIL";
-export const FETCH_DEALS_SUCCESS = "FETCH_DEALS_SUCCESS";
+export const   FETCH_DEALS_SUCCESS = "FETCH_DEALS_SUCCESS";
 
 export const getDeals = () => dispatch => {
     dispatch({ type:FETCH_DEALS});

@@ -7,7 +7,7 @@ const initialState = {
 };
 
 export const dealsReducer = (state = initialState, action) => {
-  switch (action.type) {
+  switch ( action.type ) {
     case(FETCH_DEALS):
       return({
         ...state,
